@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "unit 1 for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongvanchinh/NodeJS_Blog.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "NodeJS"
+  ],
+  "author": "Chinhtv124",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongvanchinh/NodeJS_Blog/issues"
+  },
+  "homepage": "https://github.com/truongvanchinh/NodeJS_Blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
