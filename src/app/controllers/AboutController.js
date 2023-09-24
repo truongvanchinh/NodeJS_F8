@@ -1,5 +1,4 @@
 class AboutController {
-
     // [GET] /about
     index(req, res) {
         res.render('about');
@@ -7,8 +6,8 @@ class AboutController {
 
     //[GET] /about/:slug
     show(req, res) {
-        res.send('about-detail')
+        res.send('about-detail');
     }
 }
 
-module.exports = new AboutController;
+module.exports = new AboutController();
