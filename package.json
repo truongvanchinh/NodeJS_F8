@@ -28,7 +28,7 @@
   },
   "husky":{
     "hooks" :{
-      "pre-commit" : "lint-staged"
+      "commit-msg" : "lint-staged"
     }
   },
   "dependencies": {
